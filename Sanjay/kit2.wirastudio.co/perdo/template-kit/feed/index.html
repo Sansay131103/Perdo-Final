@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Templates &#8211; Perdo &#8211; Personal Development Coaching Elementor Template Kit</title>
+	<atom:link href="https://kit2.wirastudio.co/perdo/template-kit/feed/" rel="self" type="application/rss+xml" />
+	<link>https://kit2.wirastudio.co/perdo</link>
+	<description></description>
+	<lastBuildDate>Wed, 29 May 2024 05:14:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.5</generator>
+	<item>
+		<title>MetForm &#8211; Question Form</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/metform-question-form/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:11:04 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=1006</guid>
+
+					<description><![CDATA[${ parent.decodeEntities(`Your Name`) } { parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el) }} /> ${ parent.decodeEntities(`Email`) } parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;emailMessage&#8221;:&#8221;Please enter a valid Email address&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} /> ${ parent.decodeEntities(`Question`) } parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} > ${ parent.decodeEntities(`Submit Question`) }]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1006" class="elementor elementor-1006">
+				<div class="elementor-element elementor-element-d3869d3 e-con-full e-flex e-con e-parent" data-id="d3869d3" data-element_type="container">
+		<div class="elementor-element elementor-element-ad83591 e-con-full e-flex e-con e-child" data-id="ad83591" data-element_type="container">
+				<div class="elementor-element elementor-element-119892d elementor-widget__width-inherit elementor-widget elementor-widget-mf-text" data-id="119892d" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;yourname&quot;}" data-widget_type="mf-text.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-text-119892d">
+					${ parent.decodeEntities(`Your Name`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input
+				type="text"
+				class="mf-input "
+				id="mf-input-text-119892d"
+				name="yourname"
+				placeholder="${ parent.decodeEntities(`Eg. Jane Cale`) } "
+									onInput=${parent.handleChange}
+					onBlur=${parent.handleChange}
+					aria-invalid=${validation.errors['yourname'] ? 'true' : 'false'}
+					ref=${el =>{
+												parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)
+					}}
+								/>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="yourname"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+			
+					</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b588741 elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="b588741" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-email-b588741">
+					${ parent.decodeEntities(`Email`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				class="mf-input " 
+				id="mf-input-email-b588741" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b403082 elementor-widget__width-inherit elementor-widget elementor-widget-mf-textarea" data-id="b403082" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;question&quot;}" data-widget_type="mf-textarea.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-text-area-b403082">
+					${ parent.decodeEntities(`Question`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<textarea class="mf-input mf-textarea " id="mf-input-text-area-b403082"
+				name="question" 
+				placeholder="${ parent.decodeEntities(`Your question...`) } "
+				cols="30" rows="10"
+									onInput=${ parent.handleChange }
+					aria-invalid=${validation.errors['question'] ? 'true' : 'false'}
+					ref=${ el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+								></textarea>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="question"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+								</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-13a1362 mf-btn--justify elementor-widget__width-inherit mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="13a1362" data-element_type="widget" data-widget_type="mf-button.default">
+				<div class="elementor-widget-container">
+					<div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" class="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Submit Question`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>MetForm &#8211; Program Form</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/metform-program-form/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:10:37 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=1001</guid>
+
+					<description><![CDATA[${ parent.decodeEntities(`Your Name`) } { parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el) }} /> ${ parent.decodeEntities(`Email`) } parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;emailMessage&#8221;:&#8221;Please enter a valid Email address&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} /> ${ parent.decodeEntities(`Telephone`) } parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} /> ${ parent.decodeEntities(`Prefered Contact Time`) } item.value === parent.getValue(&#8220;contact-time&#8221;))[0] : []} onChange=${(e)=> parent.handleSelect(e, &#8220;contact-time&#8221;)} ref=${() => { register({ name: &#8220;contact-time&#8221; }, [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1001" class="elementor elementor-1001">
+				<div class="elementor-element elementor-element-375416d e-con-full e-flex e-con e-parent" data-id="375416d" data-element_type="container">
+				<div class="elementor-element elementor-element-51b4d33 elementor-widget__width-inherit elementor-widget elementor-widget-mf-text" data-id="51b4d33" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;yourname&quot;}" data-widget_type="mf-text.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-text-51b4d33">
+					${ parent.decodeEntities(`Your Name`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input
+				type="text"
+				class="mf-input "
+				id="mf-input-text-51b4d33"
+				name="yourname"
+				placeholder="${ parent.decodeEntities(`Eg. Jane Cale`) } "
+									onInput=${parent.handleChange}
+					onBlur=${parent.handleChange}
+					aria-invalid=${validation.errors['yourname'] ? 'true' : 'false'}
+					ref=${el =>{
+												parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)
+					}}
+								/>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="yourname"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+			
+					</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-da4d637 elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="da4d637" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-email-da4d637">
+					${ parent.decodeEntities(`Email`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				class="mf-input " 
+				id="mf-input-email-da4d637" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-ebaae2c elementor-widget__width-inherit elementor-widget elementor-widget-mf-telephone" data-id="ebaae2c" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-telephone&quot;}" data-widget_type="mf-telephone.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-telephone-ebaae2c">
+					${ parent.decodeEntities(`Telephone`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input
+				type="tel"
+				class="mf-input "
+				id="mf-input-telephone-ebaae2c" 
+				name="mf-telephone"
+				placeholder="${ parent.decodeEntities(`Telephone`) } "
+									onInput=${parent.handleChange}
+					aria-invalid=${validation.errors['mf-telephone'] ? 'true' : 'false'}
+					ref=${el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+								/>
+			
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="mf-telephone"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+			
+			
+		</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e0301ba elementor-widget__width-inherit elementor-widget elementor-widget-mf-select" data-id="e0301ba" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;contact-time&quot;,&quot;mf_input_list&quot;:[{&quot;mf_input_option_text&quot;:&quot;Morning&quot;,&quot;mf_input_option_value&quot;:&quot;value-1&quot;,&quot;_id&quot;:&quot;976ea1b&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;},{&quot;mf_input_option_text&quot;:&quot;Lunch Time&quot;,&quot;mf_input_option_value&quot;:&quot;value-2&quot;,&quot;_id&quot;:&quot;4cc0fc8&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;},{&quot;mf_input_option_text&quot;:&quot;After Work&quot;,&quot;mf_input_option_value&quot;:&quot;value-3&quot;,&quot;_id&quot;:&quot;f173285&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;}]}" data-widget_type="mf-select.default">
+				<div class="elementor-widget-container">
+			
+		
+		<div className="mf-input-wrapper">
+							<label className="mf-input-label" htmlFor="mf-input-select-e0301ba">
+					${ parent.decodeEntities(`Prefered Contact Time`) } 					<span className="mf-input-required-indicator"></span>
+				</label>
+            
+            <${props.Select}
+                className=${"mf-input mf-input-select  " + ( validation.errors['contact-time'] ? 'mf-invalid' : '' )}
+                classNamePrefix="mf_select"
+                name="contact-time"
+                placeholder="${ parent.decodeEntities(`Choose Time`) } "
+                isSearchable=${false}
+                options=${[{"label":"Morning","value":"value-1","isDisabled":false},{"label":"Lunch Time","value":"value-2","isDisabled":false},{"label":"After Work","value":"value-3","isDisabled":false}]}
+                value=${parent.getValue("contact-time") ? [{"label":"Morning","value":"value-1","isDisabled":false},{"label":"Lunch Time","value":"value-2","isDisabled":false},{"label":"After Work","value":"value-3","isDisabled":false}].filter(item => item.value === parent.getValue("contact-time"))[0] : []}
+                onChange=${(e)=> parent.handleSelect(e, "contact-time")}
+                ref=${() => {
+				                    register({ name: "contact-time" }, parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false}));
+                    if ( parent.getValue("contact-time") === '' && false ) {
+				    parent.setValue( 'contact-time', '', true );
+                        parent.handleChange({
+                            target: {
+                                name: 'contact-time',
+                                value: ''
+                            }
+                        });
+                    }
+                }}
+                />
+
+            				<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="contact-time"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+								</div>
+
+		
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fc244fe mf-btn--justify elementor-widget__width-inherit mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="fc244fe" data-element_type="widget" data-widget_type="mf-button.default">
+				<div class="elementor-widget-container">
+					<div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" class="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Join Programs`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>MetForm &#8211; Contact Form</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/metform-contact-form/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:10:11 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=996</guid>
+
+					<description><![CDATA[${ parent.decodeEntities(`Your Name`) } { parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el) }} /> ${ parent.decodeEntities(`Email`) } parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;emailMessage&#8221;:&#8221;Please enter a valid Email address&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} /> ${ parent.decodeEntities(`Subject`) } item.value === parent.getValue(&#8220;subject&#8221;))[0] : []} onChange=${(e)=> parent.handleSelect(e, &#8220;subject&#8221;)} ref=${() => { register({ name: &#8220;subject&#8221; }, parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false})); if ( parent.getValue(&#8220;subject&#8221;) === &#8221; &#038;&#038; false [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="996" class="elementor elementor-996">
+				<div class="elementor-element elementor-element-d46c24d e-con-full e-flex e-con e-parent" data-id="d46c24d" data-element_type="container">
+		<div class="elementor-element elementor-element-5d9ea24 e-con-full e-flex e-con e-child" data-id="5d9ea24" data-element_type="container">
+				<div class="elementor-element elementor-element-fafae0e elementor-widget__width-inherit elementor-widget elementor-widget-mf-text" data-id="fafae0e" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;yourname&quot;}" data-widget_type="mf-text.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-text-fafae0e">
+					${ parent.decodeEntities(`Your Name`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input
+				type="text"
+				class="mf-input "
+				id="mf-input-text-fafae0e"
+				name="yourname"
+				placeholder="${ parent.decodeEntities(`Eg. Jane Cale`) } "
+									onInput=${parent.handleChange}
+					onBlur=${parent.handleChange}
+					aria-invalid=${validation.errors['yourname'] ? 'true' : 'false'}
+					ref=${el =>{
+												parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)
+					}}
+								/>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="yourname"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+			
+					</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4a275bd elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="4a275bd" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-email-4a275bd">
+					${ parent.decodeEntities(`Email`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				class="mf-input " 
+				id="mf-input-email-4a275bd" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8104f06 elementor-widget__width-inherit elementor-widget elementor-widget-mf-select" data-id="8104f06" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;subject&quot;,&quot;mf_input_list&quot;:[{&quot;mf_input_option_text&quot;:&quot;Services&quot;,&quot;mf_input_option_value&quot;:&quot;value-1&quot;,&quot;_id&quot;:&quot;976ea1b&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;},{&quot;mf_input_option_text&quot;:&quot;Programs&quot;,&quot;mf_input_option_value&quot;:&quot;value-2&quot;,&quot;_id&quot;:&quot;4cc0fc8&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;},{&quot;mf_input_option_text&quot;:&quot;Others&quot;,&quot;mf_input_option_value&quot;:&quot;value-3&quot;,&quot;_id&quot;:&quot;f173285&quot;,&quot;mf_input_option_status&quot;:&quot;&quot;,&quot;mf_input_option_selected&quot;:&quot;&quot;}]}" data-widget_type="mf-select.default">
+				<div class="elementor-widget-container">
+			
+		
+		<div className="mf-input-wrapper">
+							<label className="mf-input-label" htmlFor="mf-input-select-8104f06">
+					${ parent.decodeEntities(`Subject`) } 					<span className="mf-input-required-indicator"></span>
+				</label>
+            
+            <${props.Select}
+                className=${"mf-input mf-input-select  " + ( validation.errors['subject'] ? 'mf-invalid' : '' )}
+                classNamePrefix="mf_select"
+                name="subject"
+                placeholder="${ parent.decodeEntities(`Choose Subject`) } "
+                isSearchable=${false}
+                options=${[{"label":"Services","value":"value-1","isDisabled":false},{"label":"Programs","value":"value-2","isDisabled":false},{"label":"Others","value":"value-3","isDisabled":false}]}
+                value=${parent.getValue("subject") ? [{"label":"Services","value":"value-1","isDisabled":false},{"label":"Programs","value":"value-2","isDisabled":false},{"label":"Others","value":"value-3","isDisabled":false}].filter(item => item.value === parent.getValue("subject"))[0] : []}
+                onChange=${(e)=> parent.handleSelect(e, "subject")}
+                ref=${() => {
+				                    register({ name: "subject" }, parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false}));
+                    if ( parent.getValue("subject") === '' && false ) {
+				    parent.setValue( 'subject', '', true );
+                        parent.handleChange({
+                            target: {
+                                name: 'subject',
+                                value: ''
+                            }
+                        });
+                    }
+                }}
+                />
+
+            				<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="subject"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+								</div>
+
+		
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31988bf elementor-widget__width-inherit elementor-widget elementor-widget-mf-textarea" data-id="31988bf" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;message&quot;}" data-widget_type="mf-textarea.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+							<label class="mf-input-label" for="mf-input-text-area-31988bf">
+					${ parent.decodeEntities(`Message`) } 					<span class="mf-input-required-indicator"></span>
+				</label>
+			
+			<textarea class="mf-input mf-textarea " id="mf-input-text-area-31988bf"
+				name="message" 
+				placeholder="${ parent.decodeEntities(`Your message...`) } "
+				cols="30" rows="10"
+									onInput=${ parent.handleChange }
+					aria-invalid=${validation.errors['message'] ? 'true' : 'false'}
+					ref=${ el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+								></textarea>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="message"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+								</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1ca2115 mf-btn--justify elementor-widget__width-inherit mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="1ca2115" data-element_type="widget" data-widget_type="mf-button.default">
+				<div class="elementor-widget-container">
+					<div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" class="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Submit Message`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>MetForm &#8211; Subscribe Form</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/metform-subscribe-form/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:09:50 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=991</guid>
+
+					<description><![CDATA[parent.activateValidation({&#8220;message&#8221;:&#8221;This field is required.&#8221;,&#8221;emailMessage&#8221;:&#8221;Please enter a valid Email address&#8221;,&#8221;minLength&#8221;:1,&#8221;maxLength&#8221;:&#8221;&#8221;,&#8221;type&#8221;:&#8221;none&#8221;,&#8221;required&#8221;:false,&#8221;expression&#8221;:&#8221;null&#8221;}, el)} /> ${ parent.decodeEntities(`Subscribe`) }]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="991" class="elementor elementor-991">
+				<div class="elementor-element elementor-element-989cc5d e-con-full e-flex e-con e-parent" data-id="989cc5d" data-element_type="container">
+				<div class="elementor-element elementor-element-d60afab elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="d60afab" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div class="elementor-widget-container">
+			
+		<div class="mf-input-wrapper">
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				class="mf-input " 
+				id="mf-input-email-d60afab" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email Address`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-6775665 mf-btn--justify elementor-widget__width-initial mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-mf-button" data-id="6775665" data-element_type="widget" data-widget_type="mf-button.default">
+				<div class="elementor-widget-container">
+					<div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" class="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Subscribe`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Block &#8211; Footer</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/block-footer/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:09:12 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=986</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Quick Links Homepage About Us Our Services Our Programs Contact Us Featured Programs Personal Work Freelance Skills Employement Business Life Coach Allright REserved &#8211; Wirastudio Elementor Kit Facebook Twitter Youtube Pinterest]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="986" class="elementor elementor-986">
+				<div class="elementor-element elementor-element-c8688eb e-flex e-con-boxed e-con e-parent" data-id="c8688eb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-53620dd e-con-full e-flex e-con e-child" data-id="53620dd" data-element_type="container">
+		<div class="elementor-element elementor-element-5c480d8 e-con-full e-flex e-con e-child" data-id="5c480d8" data-element_type="container">
+				<div class="elementor-element elementor-element-3408ee7 elementor-widget elementor-widget-image" data-id="3408ee7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/">
+							<img fetchpriority="high" decoding="async" width="429" height="129" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png" class="attachment-large size-large wp-image-57" alt="" srcset="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png 429w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo-300x90.png 300w" sizes="(max-width: 429px) 100vw, 429px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-bc2a15a elementor-widget elementor-widget-text-editor" data-id="bc2a15a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-d6582eb elementor-widget__width-inherit elementor-widget elementor-widget-metform" data-id="d6582eb" data-element_type="widget" data-widget_type="metform.default">
+				<div class="elementor-widget-container">
+			<div id="mf-response-props-id-389" data-previous-steps-style="" data-editswitchopen="" data-response_type="alert" data-erroricon="fas fa-exclamation-triangle" data-successicon="fas fa-check" data-messageposition="top" class="   mf-scroll-top-no">
+		<div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="389" >
+				
+			<div class="elementor-widget-container">
+				
+		<div
+			id="metform-wrap-d6582eb-389"
+			class="mf-form-wrapper"
+			data-form-id="389"
+			data-action="https://kit2.wirastudio.co/perdo/wp-json/metform/v1/entries/insert/389"
+			data-wp-nonce="4a82f49474"
+			data-form-nonce="419b80a74a"
+			data-quiz-summery = "false"
+			data-save-progress = "false"
+			data-form-type="general-form"
+			data-stop-vertical-effect=""
+			></div>
+
+
+		<!----------------------------- 
+			* controls_data : find the the props passed indie of data attribute
+			* props.SubmitResponseMarkup : contains the markup of error or success message
+			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+		--------------------------- -->
+
+				<script type="text/mf" class="mf-template">
+			function controls_data (value){
+				let currentWrapper = "mf-response-props-id-389";
+				let currentEl = document.getElementById(currentWrapper);
+				
+				return currentEl ? currentEl.dataset[value] : false
+			}
+
+
+			let is_edit_mode = '' ? true : false;
+			let message_position = controls_data('messageposition') || 'top';
+
+			
+			let message_successIcon = controls_data('successicon') || '';
+			let message_errorIcon = controls_data('erroricon') || '';
+			let message_editSwitch = controls_data('editswitchopen') === 'yes' ? true : false;
+			let message_proClass = controls_data('editswitchopen') === 'yes' ? 'mf_pro_activated' : '';
+			
+			let is_dummy_markup = is_edit_mode && message_editSwitch ? true : false;
+
+			
+			return html`
+				<form
+					className="metform-form-content"
+					ref=${parent.formContainerRef}
+					onSubmit=${ validation.handleSubmit( parent.handleFormSubmit ) }
+				
+					>
+			
+			
+					${is_dummy_markup ? message_position === 'top' ?  props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
+					${is_dummy_markup ? ' ' :  message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
+
+					<!--------------------------------------------------------
+					*** IMPORTANT / DANGEROUS ***
+					${html``} must be used as in immediate child of "metform-form-main-wrapper"
+					class otherwise multistep form will not run at all
+					---------------------------------------------------------->
+
+					<div className="metform-form-main-wrapper" key=${'hide-form-after-submit'} ref=${parent.formRef}>
+					${html`
+								<div data-elementor-type="wp-post" key="2" data-elementor-id="389" className="elementor elementor-389">
+				<div className="elementor-element elementor-element-d400d68 e-con-full e-flex e-con e-parent" data-id="d400d68" data-element_type="container">
+				<div className="elementor-element elementor-element-32eeaf8 elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="32eeaf8" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div className="elementor-widget-container">
+			
+		<div className="mf-input-wrapper">
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				className="mf-input " 
+				id="mf-input-email-32eeaf8" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email Address`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				<div className="elementor-element elementor-element-3c20a9b mf-btn--justify elementor-widget__width-initial mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-mf-button" data-id="3c20a9b" data-element_type="widget" data-widget_type="mf-button.default">
+				<div className="elementor-widget-container">
+					<div className="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" className="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Subscribe`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+							`}
+					</div>
+
+					${is_dummy_markup ? message_position === 'bottom' ? props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
+					${is_dummy_markup ? ' ' : message_position === 'bottom' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
+				
+				</form>
+			`
+		</script>
+
+					</div>
+		</div>
+		</div>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0b779ec e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="0b779ec" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-fe3e564 e-con-full e-flex e-con e-child" data-id="fe3e564" data-element_type="container">
+				<div class="elementor-element elementor-element-4aeb277 elementor-widget elementor-widget-heading" data-id="4aeb277" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Quick Links</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ac45823 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ac45823" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Homepage</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">About Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Our Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Our Programs</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-975a16e e-con-full e-flex e-con e-child" data-id="975a16e" data-element_type="container">
+				<div class="elementor-element elementor-element-22defc3 elementor-widget elementor-widget-heading" data-id="22defc3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Featured Programs</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e6321ca elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e6321ca" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Personal Work</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Freelance Skills</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Employement</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Business</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-caret-right" viewBox="0 0 192 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Life Coach</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fc18ae7 e-con-full e-flex e-con e-child" data-id="fc18ae7" data-element_type="container">
+		<div class="elementor-element elementor-element-9351151 e-con-full e-flex e-con e-child" data-id="9351151" data-element_type="container">
+				<div class="elementor-element elementor-element-0c3790c elementor-widget elementor-widget-heading" data-id="0c3790c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default">Allright REserved - Wirastudio Elementor Kit</span>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-48a2d7a e-con-full e-flex e-con e-child" data-id="48a2d7a" data-element_type="container">
+				<div class="elementor-element elementor-element-6c52725 e-grid-align-right e-grid-align-tablet-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="6c52725" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-float elementor-repeater-item-2dd858e" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-9db63e2" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-float elementor-repeater-item-7c68a19" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-animation-float elementor-repeater-item-5111efb" target="_blank">
+						<span class="elementor-screen-only">Pinterest</span>
+						<svg class="e-font-icon-svg e-fab-pinterest" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"></path></svg>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Block &#8211; Header</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/block-header/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 05:08:46 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=981</guid>
+
+					<description><![CDATA[Hello@Email.co +62 123 486 789 Facebook Twitter Youtube Pinterest Home About About Us Our Team Services Our Services Detail Service Our Pricing Programs Our Programs Detail Program Pages Contact Us FAQs 404 Our Blog Single Blog X 123 456 789 Get a Quote]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="981" class="elementor elementor-981">
+				<div class="elementor-element elementor-element-f5b8d33 e-flex e-con-boxed e-con e-parent" data-id="f5b8d33" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-88c802a e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="88c802a" data-element_type="container">
+				<div class="elementor-element elementor-element-7e69180 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7e69180" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Hello@Email.co</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">+62 123 486 789</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9de5b6d e-con-full e-flex e-con e-child" data-id="9de5b6d" data-element_type="container">
+				<div class="elementor-element elementor-element-3aa345b e-grid-align-right e-grid-align-tablet-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="3aa345b" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-float elementor-repeater-item-2dd858e" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-9db63e2" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-float elementor-repeater-item-7c68a19" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-animation-float elementor-repeater-item-5111efb" target="_blank">
+						<span class="elementor-screen-only">Pinterest</span>
+						<svg class="e-font-icon-svg e-fab-pinterest" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"></path></svg>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-9e56eb0 e-flex e-con-boxed e-con e-parent" data-id="9e56eb0" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d3e975b e-con-full e-flex e-con e-child" data-id="d3e975b" data-element_type="container">
+				<div class="elementor-element elementor-element-37ef30f elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="37ef30f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="/">
+							<img fetchpriority="high" decoding="async" width="429" height="129" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png" class="attachment-large size-large wp-image-57" alt="" srcset="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png 429w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo-300x90.png 300w" sizes="(max-width: 429px) 100vw, 429px" />								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-1c8a71f elementor-widget-tablet__width-initial elementor-widget elementor-widget-ekit-nav-menu" data-id="1c8a71f" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con ekit_menu_responsive_tablet" 
+			data-hamburger-icon="" 
+			data-hamburger-icon-type="icon" 
+			data-responsive-breakpoint="1024">
+			            <button class="elementskit-menu-hamburger elementskit-menu-toggler"  type="button" aria-label="hamburger-icon">
+                                    <span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
+                            </button>
+            <div id="ekit-megamenu-menu-1" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover"><ul id="menu-menu-1" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon"><li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/home/" class="ekit-menu-nav-link">Home</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-90 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">About<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/about-us/" class=" dropdown-item">About Us</a>	<li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/our-team/" class=" dropdown-item">Our Team</a></ul>
+</li>
+<li id="menu-item-93" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-93 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Services<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-94" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/our-services/" class=" dropdown-item">Our Services</a>	<li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/detail-service/" class=" dropdown-item">Detail Service</a>	<li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/our-pricing/" class=" dropdown-item">Our Pricing</a></ul>
+</li>
+<li id="menu-item-97" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-97 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Programs<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-354" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-354 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/our-programs/" class=" dropdown-item">Our Programs</a>	<li id="menu-item-355" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-355 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/detail-program/" class=" dropdown-item">Detail Program</a></ul>
+</li>
+<li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-98 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i aria-hidden="true" class="icon icon-plus elementskit-submenu-indicator"></i></a>
+<ul class="elementskit-dropdown elementskit-submenu-panel">
+	<li id="menu-item-99" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/contact-us/" class=" dropdown-item">Contact Us</a>	<li id="menu-item-100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/faqs/" class=" dropdown-item">FAQs</a>	<li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/404/" class=" dropdown-item">404</a>	<li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/our-blog/" class=" dropdown-item">Our Blog</a>	<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/perdo/template-kit/single-blog/" class=" dropdown-item">Single Blog</a></ul>
+</li>
+</ul><div class="elementskit-nav-identity-panel">
+				<div class="elementskit-site-title">
+					<a class="elementskit-nav-logo" href="https://kit2.wirastudio.co/perdo" target="_self" rel="">
+						<img decoding="async" width="429" height="129" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png" class="attachment-full size-full" alt="" srcset="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo.png 429w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/05/Perdo-Logo-300x90.png 300w" sizes="(max-width: 429px) 100vw, 429px" />
+					</a> 
+				</div><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>			
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-64b3789 e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="64b3789" data-element_type="container">
+				<div class="elementor-element elementor-element-68a26a2 elementor-widget__width-auto elementor-tablet-align-justify elementor-widget-tablet__width-inherit elementor-widget elementor-widget-button" data-id="68a26a2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="icon icon-phone-call1"></i>			</span>
+									<span class="elementor-button-text">123 456 789</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cdcf818 elementor-widget__width-auto elementor-tablet-align-justify elementor-widget-tablet__width-inherit elementor-widget elementor-widget-button" data-id="cdcf818" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="#">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Get a Quote</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Our Blog</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/our-blog/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 04:34:18 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=933</guid>
+
+					<description><![CDATA[Our Blog Discover Our Blog Content &#038; News Updated 29May General Tools for Mental Clarity Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Read More 29May General Management for Personal Growth Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="933" class="elementor elementor-933">
+				<div class="elementor-element elementor-element-3a6b083b e-flex e-con-boxed e-con e-parent" data-id="3a6b083b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1b4e765 e-con-full e-flex e-con e-child" data-id="1b4e765" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-762c04af elementor-widget elementor-widget-heading" data-id="762c04af" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our Blog</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6f49ec1a elementor-widget elementor-widget-heading" data-id="6f49ec1a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Discover Our Blog Content &amp; News Updated</h3>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-51335e3 e-flex e-con-boxed e-con e-parent" data-id="51335e3" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-c497969 e-con-full e-flex e-con e-child" data-id="c497969" data-element_type="container">
+				<div class="elementor-element elementor-element-a409346 ekit-blog-posts--bg-hover bg-hover-classic elementor-widget elementor-widget-elementskit-blog-posts" data-id="a409346" data-element_type="widget" data-widget_type="elementskit-blog-posts.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >        <div id="post-items--a409346" class="row post-items" data-masonry-config="true">
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/young-personal-development-coach-answering-the-client-by-email-by-a-laptop-2-1024x683.jpg" alt="Tools for Mental Clarity">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/">
+						Tools for Mental Clarity					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/planning-coaching-and-strategy-with-business-people-in-meeting-for-development-project-management-1024x683.jpg" alt="Management for Personal Growth">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/">
+						Management for Personal Growth					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/overjoyed-multiethnic-women-and-redhead-motivation-coach-hugging-and-looking-at-each-other-1024x682.jpg" alt="How to Believe in Yourself">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/">
+						How to Believe in Yourself					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/overcoming-procrastination/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/woman-sport-coach-and-clipboard-writing-of-an-athlete-writing-exercise-schedule-or-plan-personal-1024x683.jpg" alt="Overcoming Procrastination">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/overcoming-procrastination/">
+						Overcoming Procrastination					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/overcoming-procrastination/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/the-power-of-positive-thinking/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/personal-trainer-coach-and-man-writing-on-clipboard-for-gym-membership-sign-up-and-information-fo-1024x683.jpg" alt="The Power of Positive Thinking">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/the-power-of-positive-thinking/">
+						The Power of Positive Thinking					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/the-power-of-positive-thinking/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/the-first-steps-to-personal-development/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/girls-personal-trainer-and-happy-woman-laughing-with-funny-coach-for-pilates-workout-chatting-wit-1024x540.jpg" alt="The First Steps to Personal Development">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/the-first-steps-to-personal-development/">
+						The First Steps to Personal Development					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/the-first-steps-to-personal-development/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                </div>
+       </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Single Blog</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/single-blog/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 04:30:20 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=918</guid>
+
+					<description><![CDATA[The First Steps to Personal Development. Share Post : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="918" class="elementor elementor-918">
+				<div class="elementor-element elementor-element-590a996b e-flex e-con-boxed e-con e-parent" data-id="590a996b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-644727db e-con-full e-flex e-con e-child" data-id="644727db" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-6e3620db elementor-widget elementor-widget-heading" data-id="6e3620db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">The First Steps to Personal Development.</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b3b3563 elementor-widget elementor-widget-heading" data-id="b3b3563" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default">Share Post :</span>		</div>
+				</div>
+				<div class="elementor-element elementor-element-046689f elementor-widget elementor-widget-elementskit-social-share" data-id="046689f" data-element_type="widget" data-widget_type="elementskit-social-share.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >		<ul class="ekit_socialshare">
+                            <li class="elementor-repeater-item-1cb8e1e" data-social="facebook">
+                    <div class="facebook">
+                        
+                        <i aria-hidden="true" class="icon icon-facebook"></i>                        
+                                                                                            </div>
+                </li>
+                                            <li class="elementor-repeater-item-99dbfa7" data-social="twitter">
+                    <div class="twitter">
+                        
+                        <i aria-hidden="true" class="icon icon-twitter"></i>                        
+                                                                                            </div>
+                </li>
+                                            <li class="elementor-repeater-item-92ff5c2" data-social="linkedin">
+                    <div class="linkedin">
+                        
+                        <i aria-hidden="true" class="icon icon-linkedin"></i>                        
+                                                                                            </div>
+                </li>
+                                    </ul>
+        </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4103bf1 e-flex e-con-boxed e-con e-parent" data-id="4103bf1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b5d5add e-con-full e-flex e-con e-child" data-id="b5d5add" data-element_type="container">
+				<div class="elementor-element elementor-element-e916223 elementor-widget elementor-widget-image" data-id="e916223" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="800" height="534" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-1024x683.jpg" class="attachment-large size-large wp-image-8" alt="Women attending personal development seminar or conference. Life long learning" srcset="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-1024x683.jpg 1024w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-300x200.jpg 300w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-768x512.jpg 768w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-1536x1025.jpg 1536w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning-800x534.jpg 800w, https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/women-attending-personal-development-seminar-or-conference-life-long-learning.jpg 2000w" sizes="(max-width: 800px) 100vw, 800px" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-2aa460e elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="2aa460e" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p><p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-274c65c e-con-full e-flex e-con e-child" data-id="274c65c" data-element_type="container">
+				<div class="elementor-element elementor-element-6e467ec elementor-widget elementor-widget-heading" data-id="6e467ec" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Maybe You Like</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-81f7ef9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="81f7ef9" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0bb01dc elementor-widget elementor-widget-elementskit-blog-posts" data-id="0bb01dc" data-element_type="widget" data-widget_type="elementskit-blog-posts.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >        <div id="post-items--0bb01dc" class="row post-items">
+                    <div class="col-md-12">
+
+                                    <div class="elementskit-blog-block-post">
+                        <div class="row no-gutters">
+                                                            <div class="col-md-6 order-1">
+                                    <a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/" class="elementskit-entry-thumb">
+                                        <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/young-personal-development-coach-answering-the-client-by-email-by-a-laptop-2-1024x683.jpg" alt="Tools for Mental Clarity">
+                                    </a><!-- .elementskit-entry-thumb END -->
+                                </div>
+                            
+                            <div class="col-md-6 order-2">
+                                <div class="elementskit-post-body ">
+                                    <div class="elementskit-entry-header">
+                                        
+                                                                                            											<div class="post-meta-list">
+																																<span class="meta-date">
+
+										<i aria-hidden="true" class="icon icon-calendar3"></i>
+										<span class="meta-date-text">
+											May 29, 2024										</span>
+									</span>
+																																					</div>
+					                                            
+                                            
+                                                                                            				<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/">
+						Tools for Mental Clarity					</a>
+				</h2>
+			                                                                                </div><!-- .elementskit-entry-header END -->
+
+                                                                    </div><!-- .elementskit-post-body END -->
+                            </div>
+                        </div>
+                    </div><!-- .elementskit-blog-block-post .radius .gradient-bg END -->
+                
+            </div>
+                    <div class="col-md-12">
+
+                                    <div class="elementskit-blog-block-post">
+                        <div class="row no-gutters">
+                                                            <div class="col-md-6 order-1">
+                                    <a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/" class="elementskit-entry-thumb">
+                                        <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/planning-coaching-and-strategy-with-business-people-in-meeting-for-development-project-management-1024x683.jpg" alt="Management for Personal Growth">
+                                    </a><!-- .elementskit-entry-thumb END -->
+                                </div>
+                            
+                            <div class="col-md-6 order-2">
+                                <div class="elementskit-post-body ">
+                                    <div class="elementskit-entry-header">
+                                        
+                                                                                            											<div class="post-meta-list">
+																																<span class="meta-date">
+
+										<i aria-hidden="true" class="icon icon-calendar3"></i>
+										<span class="meta-date-text">
+											May 29, 2024										</span>
+									</span>
+																																					</div>
+					                                            
+                                            
+                                                                                            				<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/">
+						Management for Personal Growth					</a>
+				</h2>
+			                                                                                </div><!-- .elementskit-entry-header END -->
+
+                                                                    </div><!-- .elementskit-post-body END -->
+                            </div>
+                        </div>
+                    </div><!-- .elementskit-blog-block-post .radius .gradient-bg END -->
+                
+            </div>
+                    <div class="col-md-12">
+
+                                    <div class="elementskit-blog-block-post">
+                        <div class="row no-gutters">
+                                                            <div class="col-md-6 order-1">
+                                    <a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/" class="elementskit-entry-thumb">
+                                        <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/overjoyed-multiethnic-women-and-redhead-motivation-coach-hugging-and-looking-at-each-other-1024x682.jpg" alt="How to Believe in Yourself">
+                                    </a><!-- .elementskit-entry-thumb END -->
+                                </div>
+                            
+                            <div class="col-md-6 order-2">
+                                <div class="elementskit-post-body ">
+                                    <div class="elementskit-entry-header">
+                                        
+                                                                                            											<div class="post-meta-list">
+																																<span class="meta-date">
+
+										<i aria-hidden="true" class="icon icon-calendar3"></i>
+										<span class="meta-date-text">
+											May 29, 2024										</span>
+									</span>
+																																					</div>
+					                                            
+                                            
+                                                                                            				<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/">
+						How to Believe in Yourself					</a>
+				</h2>
+			                                                                                </div><!-- .elementskit-entry-header END -->
+
+                                                                    </div><!-- .elementskit-post-body END -->
+                            </div>
+                        </div>
+                    </div><!-- .elementskit-blog-block-post .radius .gradient-bg END -->
+                
+            </div>
+                    <div class="col-md-12">
+
+                                    <div class="elementskit-blog-block-post">
+                        <div class="row no-gutters">
+                                                            <div class="col-md-6 order-1">
+                                    <a href="https://kit2.wirastudio.co/perdo/2024/05/29/overcoming-procrastination/" class="elementskit-entry-thumb">
+                                        <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/woman-sport-coach-and-clipboard-writing-of-an-athlete-writing-exercise-schedule-or-plan-personal-1024x683.jpg" alt="Overcoming Procrastination">
+                                    </a><!-- .elementskit-entry-thumb END -->
+                                </div>
+                            
+                            <div class="col-md-6 order-2">
+                                <div class="elementskit-post-body ">
+                                    <div class="elementskit-entry-header">
+                                        
+                                                                                            											<div class="post-meta-list">
+																																<span class="meta-date">
+
+										<i aria-hidden="true" class="icon icon-calendar3"></i>
+										<span class="meta-date-text">
+											May 29, 2024										</span>
+									</span>
+																																					</div>
+					                                            
+                                            
+                                                                                            				<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/overcoming-procrastination/">
+						Overcoming Procrastination					</a>
+				</h2>
+			                                                                                </div><!-- .elementskit-entry-header END -->
+
+                                                                    </div><!-- .elementskit-post-body END -->
+                            </div>
+                        </div>
+                    </div><!-- .elementskit-blog-block-post .radius .gradient-bg END -->
+                
+            </div>
+                </div>
+       </div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>404</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/404/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 04:20:52 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=894</guid>
+
+					<description><![CDATA[404 Page Not Found Opsss&#8230; Something went wrong&#8230; Homepage]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="894" class="elementor elementor-894">
+				<div class="elementor-element elementor-element-2803c607 e-flex e-con-boxed e-con e-parent" data-id="2803c607" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-e450744 e-con-full e-flex e-con e-child" data-id="e450744" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-23864b1e elementor-widget elementor-widget-heading" data-id="23864b1e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">404</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-705e9f81 elementor-widget elementor-widget-heading" data-id="705e9f81" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Page Not Found</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fdc0fb7 elementor-widget elementor-widget-text-editor" data-id="fdc0fb7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Opsss&#8230; Something went wrong&#8230;</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-21c6426 elementor-align-center elementor-widget elementor-widget-button" data-id="21c6426" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="icon icon-arrow-left"></i>			</span>
+									<span class="elementor-button-text">Homepage</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>FAQs</title>
+		<link>https://kit2.wirastudio.co/perdo/template-kit/faqs/</link>
+		
+		<dc:creator><![CDATA[kahfimaarif]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 04:13:33 +0000</pubDate>
+				<guid isPermaLink="false">https://kit2.wirastudio.co/perdo/?post_type=envato_tk_templates&#038;p=877</guid>
+
+					<description><![CDATA[FAQs Find answers to the most common questions. Featured Question Our Featured Question Answer For Our Business. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. How Long Work ? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="877" class="elementor elementor-877">
+				<div class="elementor-element elementor-element-3d4fedc0 e-flex e-con-boxed e-con e-parent" data-id="3d4fedc0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7a9bb9e8 e-con-full e-flex e-con e-child" data-id="7a9bb9e8" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-2c9d76d9 elementor-widget elementor-widget-heading" data-id="2c9d76d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">FAQs</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-55bc974b elementor-widget elementor-widget-heading" data-id="55bc974b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Find answers to the most common questions.</h3>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b6cab46 e-flex e-con-boxed e-con e-parent" data-id="b6cab46" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a026426 e-con-full e-flex e-con e-child" data-id="a026426" data-element_type="container">
+		<div class="elementor-element elementor-element-d8a5779 e-flex e-con-boxed e-con e-child" data-id="d8a5779" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f8e8d30 elementor-invisible elementor-widget elementor-widget-heading" data-id="f8e8d30" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Featured Question</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e1afdf8 elementor-invisible elementor-widget elementor-widget-heading" data-id="e1afdf8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Our Featured Question Answer For Our Business.</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3303cc5 elementor-widget elementor-widget-text-editor" data-id="3303cc5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-42ab472 e-con-full e-flex elementor-invisible e-con e-child" data-id="42ab472" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-25e886a elementor-widget elementor-widget-elementskit-accordion" data-id="25e886a" data-element_type="widget" data-widget_type="elementskit-accordion.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >
+        <div class="elementskit-accordion accoedion-primary" id="accordion-673055cc0e742">
+
+            
+                <div class="elementskit-card active">
+                    <div class="elementskit-card-header" id="primaryHeading-0-25e886a">
+                        <a href="#collapse-f32abd0673055cc0e742" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f32abd0673055cc0e742" aria-expanded="true" aria-controls="Collapse-f32abd0673055cc0e742">
+                            
+                            <span class="ekit-accordion-title">How Long Work ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-f32abd0673055cc0e742" class=" show collapse" aria-labelledby="primaryHeading-0-25e886a" data-parent="#accordion-673055cc0e742">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-1-25e886a">
+                        <a href="#collapse-5318230673055cc0e742" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-5318230673055cc0e742" aria-expanded="false" aria-controls="Collapse-5318230673055cc0e742">
+                            
+                            <span class="ekit-accordion-title">How To Make Payment ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-5318230673055cc0e742" class=" collapse" aria-labelledby="primaryHeading-1-25e886a" data-parent="#accordion-673055cc0e742">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-2-25e886a">
+                        <a href="#collapse-ecd5349673055cc0e742" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ecd5349673055cc0e742" aria-expanded="false" aria-controls="Collapse-ecd5349673055cc0e742">
+                            
+                            <span class="ekit-accordion-title">How To Get Meetup ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-ecd5349673055cc0e742" class=" collapse" aria-labelledby="primaryHeading-2-25e886a" data-parent="#accordion-673055cc0e742">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                                        </div>
+    </div>		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-46cc624 e-con-full e-flex e-con e-child" data-id="46cc624" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-4619e64 elementor-widget elementor-widget-spacer" data-id="4619e64" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6225426 e-flex e-con-boxed e-con e-parent" data-id="6225426" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4eb4838 e-con-full e-flex e-con e-child" data-id="4eb4838" data-element_type="container">
+		<div class="elementor-element elementor-element-ef52838 e-flex e-con-boxed e-con e-child" data-id="ef52838" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4d3713d elementor-invisible elementor-widget elementor-widget-heading" data-id="4d3713d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">General Information</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4604abc elementor-invisible elementor-widget elementor-widget-heading" data-id="4604abc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Get to know the basics about our services and programs</h3>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8967a70 e-flex e-con-boxed e-con e-child" data-id="8967a70" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ca7d765 elementor-widget elementor-widget-elementskit-accordion" data-id="ca7d765" data-element_type="widget" data-widget_type="elementskit-accordion.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >
+        <div class="elementskit-accordion accoedion-primary" id="accordion-673055cc11013">
+
+            
+                <div class="elementskit-card active">
+                    <div class="elementskit-card-header" id="primaryHeading-0-ca7d765">
+                        <a href="#collapse-f32abd0673055cc11013" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f32abd0673055cc11013" aria-expanded="true" aria-controls="Collapse-f32abd0673055cc11013">
+                            
+                            <span class="ekit-accordion-title">How Long Work ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-f32abd0673055cc11013" class=" show collapse" aria-labelledby="primaryHeading-0-ca7d765" data-parent="#accordion-673055cc11013">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-1-ca7d765">
+                        <a href="#collapse-5318230673055cc11013" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-5318230673055cc11013" aria-expanded="false" aria-controls="Collapse-5318230673055cc11013">
+                            
+                            <span class="ekit-accordion-title">How To Make Payment ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-5318230673055cc11013" class=" collapse" aria-labelledby="primaryHeading-1-ca7d765" data-parent="#accordion-673055cc11013">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-2-ca7d765">
+                        <a href="#collapse-ecd5349673055cc11013" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ecd5349673055cc11013" aria-expanded="false" aria-controls="Collapse-ecd5349673055cc11013">
+                            
+                            <span class="ekit-accordion-title">How To Get Meetup ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-ecd5349673055cc11013" class=" collapse" aria-labelledby="primaryHeading-2-ca7d765" data-parent="#accordion-673055cc11013">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                                        </div>
+    </div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ba2f80f elementor-widget elementor-widget-elementskit-accordion" data-id="ba2f80f" data-element_type="widget" data-widget_type="elementskit-accordion.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >
+        <div class="elementskit-accordion accoedion-primary" id="accordion-673055cc11661">
+
+            
+                <div class="elementskit-card active">
+                    <div class="elementskit-card-header" id="primaryHeading-0-ba2f80f">
+                        <a href="#collapse-f32abd0673055cc11661" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f32abd0673055cc11661" aria-expanded="true" aria-controls="Collapse-f32abd0673055cc11661">
+                            
+                            <span class="ekit-accordion-title">How Long Work ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-f32abd0673055cc11661" class=" show collapse" aria-labelledby="primaryHeading-0-ba2f80f" data-parent="#accordion-673055cc11661">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-1-ba2f80f">
+                        <a href="#collapse-5318230673055cc11661" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-5318230673055cc11661" aria-expanded="false" aria-controls="Collapse-5318230673055cc11661">
+                            
+                            <span class="ekit-accordion-title">How To Make Payment ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-5318230673055cc11661" class=" collapse" aria-labelledby="primaryHeading-1-ba2f80f" data-parent="#accordion-673055cc11661">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                
+                <div class="elementskit-card ">
+                    <div class="elementskit-card-header" id="primaryHeading-2-ba2f80f">
+                        <a href="#collapse-ecd5349673055cc11661" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ecd5349673055cc11661" aria-expanded="false" aria-controls="Collapse-ecd5349673055cc11661">
+                            
+                            <span class="ekit-accordion-title">How To Get Meetup ?</span>
+
+                            
+                                <div class="ekit_accordion_icon_group">
+                                    <div class="ekit_accordion_normal_icon">
+                                        <!-- Normal Icon -->
+                                        <i aria-hidden="true" class="icon-open icon-right icon icon-down-arrow1"></i>                                    </div>
+
+                                    <div class="ekit_accordion_active_icon">
+                                        <!-- Active Icon -->
+                                        <i aria-hidden="true" class="icon-closed icon-right icon icon-up-arrow1"></i>                                    </div>
+
+                                </div>
+
+                            
+                                                    </a>
+                    </div>
+
+                    <div id="Collapse-ecd5349673055cc11661" class=" collapse" aria-labelledby="primaryHeading-2-ba2f80f" data-parent="#accordion-673055cc11661">
+
+                        <div class="elementskit-card-body ekit-accordion--content">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast                        </div>
+
+                    </div>
+
+                </div><!-- .elementskit-card END -->
+
+                                        </div>
+    </div>		</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-94882c9 e-flex e-con-boxed e-con e-parent" data-id="94882c9" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7bba551 e-con-full e-flex e-con e-child" data-id="7bba551" data-element_type="container">
+		<div class="elementor-element elementor-element-6525471 e-con-full e-flex e-con e-child" data-id="6525471" data-element_type="container">
+		<div class="elementor-element elementor-element-f9c81dc e-con-full e-flex e-con e-child" data-id="f9c81dc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-843c7a3 elementor-widget elementor-widget-heading" data-id="843c7a3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Have questions or need more information?</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d294f15 elementor-widget elementor-widget-text-editor" data-id="d294f15" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-dac33b1 elementor-widget elementor-widget-metform" data-id="dac33b1" data-element_type="widget" data-widget_type="metform.default">
+				<div class="elementor-widget-container">
+			<div id="mf-response-props-id-317" data-previous-steps-style="" data-editswitchopen="" data-response_type="alert" data-erroricon="fas fa-exclamation-triangle" data-successicon="fas fa-check" data-messageposition="top" class="   mf-scroll-top-no">
+		<div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="317" >
+				
+			<div class="elementor-widget-container">
+				
+		<div
+			id="metform-wrap-dac33b1-317"
+			class="mf-form-wrapper"
+			data-form-id="317"
+			data-action="https://kit2.wirastudio.co/perdo/wp-json/metform/v1/entries/insert/317"
+			data-wp-nonce="4a82f49474"
+			data-form-nonce="419b80a74a"
+			data-quiz-summery = "false"
+			data-save-progress = "false"
+			data-form-type="general-form"
+			data-stop-vertical-effect=""
+			></div>
+
+
+		<!----------------------------- 
+			* controls_data : find the the props passed indie of data attribute
+			* props.SubmitResponseMarkup : contains the markup of error or success message
+			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+		--------------------------- -->
+
+				<script type="text/mf" class="mf-template">
+			function controls_data (value){
+				let currentWrapper = "mf-response-props-id-317";
+				let currentEl = document.getElementById(currentWrapper);
+				
+				return currentEl ? currentEl.dataset[value] : false
+			}
+
+
+			let is_edit_mode = '' ? true : false;
+			let message_position = controls_data('messageposition') || 'top';
+
+			
+			let message_successIcon = controls_data('successicon') || '';
+			let message_errorIcon = controls_data('erroricon') || '';
+			let message_editSwitch = controls_data('editswitchopen') === 'yes' ? true : false;
+			let message_proClass = controls_data('editswitchopen') === 'yes' ? 'mf_pro_activated' : '';
+			
+			let is_dummy_markup = is_edit_mode && message_editSwitch ? true : false;
+
+			
+			return html`
+				<form
+					className="metform-form-content"
+					ref=${parent.formContainerRef}
+					onSubmit=${ validation.handleSubmit( parent.handleFormSubmit ) }
+				
+					>
+			
+			
+					${is_dummy_markup ? message_position === 'top' ?  props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
+					${is_dummy_markup ? ' ' :  message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
+
+					<!--------------------------------------------------------
+					*** IMPORTANT / DANGEROUS ***
+					${html``} must be used as in immediate child of "metform-form-main-wrapper"
+					class otherwise multistep form will not run at all
+					---------------------------------------------------------->
+
+					<div className="metform-form-main-wrapper" key=${'hide-form-after-submit'} ref=${parent.formRef}>
+					${html`
+								<div data-elementor-type="wp-post" key="2" data-elementor-id="317" className="elementor elementor-317">
+				<div className="elementor-element elementor-element-e191589 e-con-full e-flex e-con e-parent" data-id="e191589" data-element_type="container">
+		<div className="elementor-element elementor-element-e9f1386 e-con-full e-flex e-con e-child" data-id="e9f1386" data-element_type="container">
+				<div className="elementor-element elementor-element-4b47968 elementor-widget__width-inherit elementor-widget elementor-widget-mf-text" data-id="4b47968" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;yourname&quot;}" data-widget_type="mf-text.default">
+				<div className="elementor-widget-container">
+			
+		<div className="mf-input-wrapper">
+							<label className="mf-input-label" htmlFor="mf-input-text-4b47968">
+					${ parent.decodeEntities(`Your Name`) } 					<span className="mf-input-required-indicator"></span>
+				</label>
+			
+			<input
+				type="text"
+				className="mf-input "
+				id="mf-input-text-4b47968"
+				name="yourname"
+				placeholder="${ parent.decodeEntities(`Eg. Jane Cale`) } "
+									onInput=${parent.handleChange}
+					onBlur=${parent.handleChange}
+					aria-invalid=${validation.errors['yourname'] ? 'true' : 'false'}
+					ref=${el =>{
+												parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)
+					}}
+								/>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="yourname"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+			
+					</div>
+
+				</div>
+				</div>
+				<div className="elementor-element elementor-element-ee36a49 elementor-widget__width-inherit elementor-widget elementor-widget-mf-email" data-id="ee36a49" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
+				<div className="elementor-widget-container">
+			
+		<div className="mf-input-wrapper">
+							<label className="mf-input-label" htmlFor="mf-input-email-ee36a49">
+					${ parent.decodeEntities(`Email`) } 					<span className="mf-input-required-indicator"></span>
+				</label>
+			
+			<input 
+				type="email" 
+				 
+				defaultValue="" 
+				className="mf-input " 
+				id="mf-input-email-ee36a49" 
+				name="mf-email" 
+				placeholder="${ parent.decodeEntities(`Email`) } " 
+				 
+				onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' } 
+				ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+							/>
+
+						<${validation.ErrorMessage} 
+				errors=${validation.errors} 
+				name="mf-email" 
+				as=${html`<span className="mf-error-message"></span>`}
+			/>
+			
+					</div>
+
+		</div>
+				</div>
+				</div>
+				<div className="elementor-element elementor-element-8869ba5 elementor-widget__width-inherit elementor-widget elementor-widget-mf-textarea" data-id="8869ba5" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;question&quot;}" data-widget_type="mf-textarea.default">
+				<div className="elementor-widget-container">
+			
+		<div className="mf-input-wrapper">
+							<label className="mf-input-label" htmlFor="mf-input-text-area-8869ba5">
+					${ parent.decodeEntities(`Question`) } 					<span className="mf-input-required-indicator"></span>
+				</label>
+			
+			<textarea className="mf-input mf-textarea " id="mf-input-text-area-8869ba5"
+				name="question" 
+				placeholder="${ parent.decodeEntities(`Your question...`) } "
+				cols="30" rows="10"
+									onInput=${ parent.handleChange }
+					aria-invalid=${validation.errors['question'] ? 'true' : 'false'}
+					ref=${ el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
+								></textarea>
+
+							<${validation.ErrorMessage}
+					errors=${validation.errors}
+					name="question"
+					as=${html`<span className="mf-error-message"></span>`}
+					/>
+								</div>
+
+				</div>
+				</div>
+				<div className="elementor-element elementor-element-0c8ce8d mf-btn--justify elementor-widget__width-inherit mf-btn--tablet-justify mf-btn--mobile-justify elementor-widget elementor-widget-mf-button" data-id="0c8ce8d" data-element_type="widget" data-widget_type="mf-button.default">
+				<div className="elementor-widget-container">
+					<div className="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+							<button type="submit" className="metform-btn metform-submit-btn " id="">
+					<span>${ parent.decodeEntities(`Submit Question`) } </span>
+				</button>
+			        </div>
+        		</div>
+				</div>
+				</div>
+				</div>
+							`}
+					</div>
+
+					${is_dummy_markup ? message_position === 'bottom' ? props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''}
+					${is_dummy_markup ? ' ' : message_position === 'bottom' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
+				
+				</form>
+			`
+		</script>
+
+					</div>
+		</div>
+		</div>		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7da729d e-flex e-con-boxed e-con e-parent" data-id="7da729d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1335dd6 e-con-full e-flex e-con e-child" data-id="1335dd6" data-element_type="container">
+		<div class="elementor-element elementor-element-f703193 e-con-full e-flex e-con e-child" data-id="f703193" data-element_type="container">
+				<div class="elementor-element elementor-element-c011044 elementor-invisible elementor-widget elementor-widget-heading" data-id="c011044" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Content Insight</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-23873e2 elementor-invisible elementor-widget elementor-widget-heading" data-id="23873e2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Our Latest Updates &amp; Blog Tips.</h3>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ee72ce1 e-con-full e-flex e-con e-child" data-id="ee72ce1" data-element_type="container">
+				<div class="elementor-element elementor-element-8a118e8 elementor-align-left elementor-widget elementor-widget-button" data-id="8a118e8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="icon icon-arrow-right"></i>			</span>
+									<span class="elementor-button-text">Discover Blog</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ca08ff5 ekit-blog-posts--bg-hover bg-hover-classic elementor-widget elementor-widget-elementskit-blog-posts" data-id="ca08ff5" data-element_type="widget" data-widget_type="elementskit-blog-posts.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >        <div id="post-items--ca08ff5" class="row post-items">
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/young-personal-development-coach-answering-the-client-by-email-by-a-laptop-2-1024x683.jpg" alt="Tools for Mental Clarity">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/">
+						Tools for Mental Clarity					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/tools-for-mental-clarity/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/planning-coaching-and-strategy-with-business-people-in-meeting-for-development-project-management-1024x683.jpg" alt="Management for Personal Growth">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/">
+						Management for Personal Growth					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/management-for-personal-growth/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                    <div class="col-lg-4 col-md-6">
+
+                                    <div class="elementskit-post-image-card">
+                        <div class="elementskit-entry-header">
+                                                            <a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/" class="elementskit-entry-thumb">
+                                    <img decoding="async" src="https://kit2.wirastudio.co/perdo/wp-content/uploads/sites/3/2024/02/overjoyed-multiethnic-women-and-redhead-motivation-coach-hugging-and-looking-at-each-other-1024x682.jpg" alt="How to Believe in Yourself">
+                                </a><!-- .elementskit-entry-thumb END -->
+                                                                                                    <div class="elementskit-meta-lists">
+                                        <div class="elementskit-single-meta"><span class="elementskit-meta-wraper"><strong>29</strong>May</span></div>
+                                    </div>
+                                                                                            
+                                                            <div class="elementskit-meta-categories">
+                                    <span class="elementskit-meta-wraper">
+                                        <span><a href="https://kit2.wirastudio.co/perdo/category/general/" rel="category tag">General</a></span>
+                                    </span>
+                                </div>
+                            
+													</div><!-- .elementskit-entry-header END -->
+
+						<div class="elementskit-post-body ">
+							
+																														
+								
+																					<h2 class="entry-title">
+					<a href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/">
+						How to Believe in Yourself					</a>
+				</h2>
+																																										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+																						                                                            <div class="btn-wraper">
+                                                                            <a class="elementskit-btn whitespace--normal" id="" href="https://kit2.wirastudio.co/perdo/2024/05/29/how-to-believe-in-yourself/">
+                                            Read More                                                                                    </a>
+                                    
+                                                                    </div>
+                                                    </div><!-- .elementskit-post-body END -->
+                    </div>
+                
+            </div>
+                </div>
+       </div>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
